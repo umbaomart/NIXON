@@ -1,0 +1,69 @@
+.section_one {
+      .section_one__wrapper {
+            margin: 0 auto;
+            max-width: 1200px;
+            display: flex;
+            flex-direction: row;
+            .wrapper__content_left {
+                  flex: 1;
+                  box-sizing: border-box;
+                  padding: 40px;
+                  padding-top: 120px;
+                  padding-bottom: 80px;
+                  background: $gray;
+                  height: 835px;
+                  position: relative;
+                  img {
+                        position: absolute; }
+                  img.section_one_img_big {
+                        height: 630px;
+                  }
+                  img.section_one_img_small {
+                        height: 300px;
+                        bottom: 40px;
+                        right: 40px;
+                  }
+            }
+            .wrapper__content_right {
+                  position: relative;
+                  z-index: 1;
+                  flex: 1;
+                  height: inherit;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  align-content: center;
+                  justify-content: center;
+                  box-sizing: border-box;
+                  padding: 40px;
+                  h1 {
+                        font-size: 70px;
+                        margin-left: -155px;
+                        padding-bottom: 40px;
+                        letter-spacing: 5px;
+                        color: $dark;
+                  }
+                  .content_right__context {
+                        p {
+                              font-size: 20px;
+                              color: $dark-light;
+                              line-height: 1.9;
+                              margin-bottom: 40px;
+                              letter-spacing: 1px;
+                        }
+                        .cta {
+                              background: $primary;
+                              padding: 15px 30px;
+                              text-transform: uppercase;
+                              text-decoration: none;
+                              font-size: 18px;
+                              color: $gray;
+                              font-weight: bold;
+                              i {
+                                    margin-left: 10px;
+                               }
+                        }
+                  }
+            }
+      }
+}

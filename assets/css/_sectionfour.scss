@@ -1,0 +1,167 @@
+.section_four {
+      .section_four__wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 75px;
+            .content_flex {
+                  display: flex;
+                  
+                  .col-left {
+                        max-width: 747px;
+                        align-self: flex-end;
+                        .content_left__top_main {
+                              padding: 28px;
+                              background: $gray;
+
+                              .section_four__title {
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    h4 {
+                                          background: $primary;
+                                          color: $dark;
+                                          text-align: right;
+                                          display: block;
+                                          margin: 0;
+                                          padding: 15px 28px;
+                                          font-size: 30px;
+                                          margin-right: -28px;
+                                    }
+                              }
+                              .content_left__top {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .content_flex__left {
+                                          width: 405px;
+                                          height: 379px;
+                                          position: relative;
+                                          img {
+                                                position: absolute;
+                                                max-width: 220px;
+                                                z-index: 2;
+                                                &:last-child {
+                                                      z-index: 1;
+                                                      top: 60px;
+                                                      right: 0;
+                                                }
+                                          }
+                                    }
+                                    .content_flex__right {
+                                          display: flex;
+                                          flex-direction: column;
+                                          width: 265px;
+                                          padding-left: 17px;
+                                          box-sizing: border-box;
+                                          margin-top: 60px;
+                                          .card_v {
+                                                display: flex;
+                                                align-content: center;
+                                                margin-bottom: 20px;
+                                                i {
+                                                      font-size: 35px;
+                                                      color: $primary;
+                                                }
+                                                p {
+                                                      margin: 0;
+                                                      padding-left: 10px;
+                                                      text-align: justify;
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                        
+                        .content_left_bottom {
+                              margin-top: 20px;
+                              padding: 28px;
+                              background: $gray;
+                              display: flex;
+                              justify-content: flex-end;
+                              .left_bottom_img {
+                                    display: flex;
+                                    img.img_lg {
+                                          max-height: 275px;
+                                          margin-right: 20px;
+                                    }
+                              }
+                              .content__details {
+                                    .title {
+                                          display: flex;
+                                          justify-content: flex-end;
+                                          h4 {
+                                                margin: 0;
+                                                font-size: 20px;
+                                                background: $primary;
+                                                text-align: right;
+                                                padding: 20px 35px;
+                                                margin-right: -28px;
+                                          }
+                                    }
+
+                                    .details__imgs {
+                                          display: flex;
+                                          flex-direction: row-reverse;
+                                          align-content: center;
+                                          justify-content: center;
+                                          align-items: center;
+                                          img {
+                                                max-height: 170px;
+                                                &:last-child {
+                                                      margin-right: 20px;
+                                                      max-height: 195px;
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  }
+                  .col_right {
+                        margin-left: 20px;
+                        .content_right {
+
+                              .content_right__top {
+                                    display: flex;
+                                    background: $gray;
+                                    padding: 28px;
+
+                                    .content_flex__right {
+                                         .title {
+                                               display: flex;
+                                               justify-content: flex-start;
+                                                h4 {
+                                                      // background: $primary;
+                                                      margin: 0;
+                                                      font-size: 15px;
+                                                      background: $primary;
+                                                      text-align: left;
+                                                      padding: 15px 20px;
+                                                      margin-left: -28px;
+                                                }
+                                         }
+                                    }
+                                    .content_flex_text {
+                                          img {
+                                                max-height: 120px;
+                                                &:last-child {
+                                                      margin-left: 20px;
+                                                      max-height: 150px;
+                                                }
+                                          }
+                                    }
+                                    img {
+                                          max-height: 230px;
+                                    }
+                              }
+                        }
+                        .content_right__bottom {
+                              background: $gray;
+                              margin-top: 20px;
+                              background-image: url(../images/bgd_armwatch.jpg);
+                              background-size: cover;
+                              height:586px;
+                              width: 100%;
+                        }
+                  }
+            }
+      }
+}
+
